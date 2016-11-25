@@ -10,5 +10,5 @@ when 'debian'
     key node['nodejs']['key']
   end
 when 'rhel'
-  #include_recipe 'nodejs::yum-epel'
+  include_recipe 'nodejs::yum-epel'
 end
